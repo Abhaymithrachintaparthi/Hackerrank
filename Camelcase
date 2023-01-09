@@ -1,0 +1,16 @@
+a=input()
+count=1
+for i in a:
+    if i.isupper():
+        count+=1
+print(count)
+########################viral advertising####################
+
+n=int(input())
+count=2
+w=5//2
+for i in range(n-1):
+    w=w*3
+    w=w//2
+    count+=w
+print(count)
