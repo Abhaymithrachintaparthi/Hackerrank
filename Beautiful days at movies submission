@@ -1,0 +1,15 @@
+a,b,c=map(int,input().split())
+d=[i for i in range(a,b+1)]
+e=[int(str(i)[::-1]) for i in d]
+f=[]
+g=[]
+for i in range(len(d)):
+    k=abs(d[i]-e[i])
+    f.append(k)
+for i in f:
+    if i%c==0:
+        g.append(i)
+print(len(g))
+
+
+
